@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Deposit | WithDraw</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body
+	style="background-image: url('https://cutewallpaper.org/21/hd-website-backgrounds/High-Resolution-Hd-Website-Background-Hd-Wallpapers-.jpg');">
+	<br>
+	<br>
+	<br>
+	<center>
+		<div>
+			<h1>You can Check Current Balance Here</h1>
+			<form method="post" action="check_balance.jsp">
+				<table border="1" bgcolor="lightblue">
+					<tr scope="row">
+						<td><label>Enter Your Account Number</label></td>
+						<td><input type="text" name="ano"></td>
+					</tr>
+					<tr scope="row">
+						<td colspan="2" align="center">
+							<button type="button">Submit</button>
+					</tr>
+				</table>
+			</form>
+		</div>
+
+
+
+		<div>
+			<h1>Deposit Your Amount</h1>
+			<form method="post" action="update_deposit.jsp">
+				<table border="1" bgcolor="lightblue">
+					<tr>
+						<td><label>Enter Your Account Number</label></td>
+						<td><input type="text" name="ano"></td>
+					</tr>
+					<tr>
+						<td><label>Enter Your Deposit Amount</label></td>
+						<td><input type="text" name="amt"></td>
+					</tr>
+					<td colspan="2" align="center"><input type="Submit"
+						value="Submit"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+
+
+
+
+		<div>
+			<h1>With Draw Your Amount</h1>
+			<form method="post" action="withdraw.jsp">
+				<table border="1" bgcolor="lightblue">
+					<tr>
+						<td><label>Enter Your Account Number</label></td>
+						<td><input type="text" name="ano"></td>
+					</tr>
+					<tr>
+						<td><label>Enter Your WithDraw Amount</label></td>
+						<td><input type="text" name="amt"></td>
+					</tr>
+					<td colspan="2" align="center"><input type="Submit"
+						value="Submit"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+
+	</center>
+</body>
+</html>

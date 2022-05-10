@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>transaction_index.jsp</welcome-file>
+		<welcome-file>show_transaction.jsp</welcome-file>
+		<welcome-file>deposit.html</welcome-file>
+		<welcome-file>withdraw.jsp</welcome-file>
+<welcome-file>check_balance.jsp</welcome-file>
+		<welcome-file>editform.jsp</welcome-file>
+		<welcome-file>deleteMember.jsp</welcome-file>
+		<welcome-file>updateMember.jsp</welcome-file>
+		<welcome-file>displayMember.jsp</welcome-file>
+		<welcome-file>updateProcess.jsp</welcome-file>
+		<welcome-file>user-list.jsp</welcome-file>
+		<welcome-file>memberHome.jsp</welcome-file>
+		<welcome-file>memberRegister.jsp</welcome-file>
+		<welcome-file>memberLogin.jsp</welcome-file>
+		<welcome-file>AdminLogin.jsp</welcome-file>
+		<welcome-file>AdminHome.jsp</welcome-file>
+
+	</welcome-file-list>
+
+
+
+</web-app>
+
